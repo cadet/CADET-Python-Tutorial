@@ -27,6 +27,9 @@
     </Content>
     <Content Include="CADETMatch command line.ipynb" />
     <Content Include="CADETMatch install Linux.ipynb" />
+    <Content Include="Lesson 1 Creating, Running, and Plotting a Simple Model.ipynb" />
+    <Content Include="Lesson 2 Loading an old model and looking inside the column.ipynb" />
+    <Content Include="Lesson 3 Building more complex models.ipynb" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
