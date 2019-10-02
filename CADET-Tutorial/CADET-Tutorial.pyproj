@@ -32,6 +32,8 @@
     <Content Include="Lesson 3 Building more complex models.ipynb" />
     <Content Include="Lesson 4 Parameter estimation.ipynb" />
     <Content Include="Lesson 5 Advanced parameter estimation including fractionation.ipynb" />
+    <Content Include="Lesson 6 Experimental design overview.ipynb" />
+    <Content Include="Lesson 7 Error modeling.ipynb" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
