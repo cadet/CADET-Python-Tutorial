@@ -27,6 +27,12 @@
     </Content>
     <Content Include="CADETMatch command line.ipynb" />
     <Content Include="CADETMatch install Linux.ipynb" />
+    <Content Include="images\AnacondaConsole.png" />
+    <Content Include="images\AnacondaEnvironments.png" />
+    <Content Include="images\AnacondaExtensionsCheck.png" />
+    <Content Include="images\JupyterExtensions.png" />
+    <Content Include="images\JupyterUncheck.png" />
+    <Content Include="images\WindowsFileBrowser.png" />
     <Content Include="Lesson 1 Creating, Running, and Plotting a Simple Model.ipynb" />
     <Content Include="Lesson 2 Loading an old model and looking inside the column.ipynb" />
     <Content Include="Lesson 3 Building more complex models.ipynb" />
@@ -34,6 +40,9 @@
     <Content Include="Lesson 5 Advanced parameter estimation including fractionation.ipynb" />
     <Content Include="Lesson 6 Experimental design overview.ipynb" />
     <Content Include="Lesson 7 Error modeling.ipynb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
