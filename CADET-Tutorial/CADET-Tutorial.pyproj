@@ -27,6 +27,7 @@
     </Content>
     <Content Include="CADETMatch command line.ipynb" />
     <Content Include="CADETMatch install Linux.ipynb" />
+    <Content Include="CADETSettings.ipynb" />
     <Content Include="images\AnacondaConsole.png" />
     <Content Include="images\AnacondaEnvironments.png" />
     <Content Include="images\AnacondaExtensionsCheck.png" />
