@@ -33,13 +33,6 @@
     <Content Include="images\JupyterExtensions.png" />
     <Content Include="images\JupyterUncheck.png" />
     <Content Include="images\WindowsFileBrowser.png" />
-    <Content Include="Lesson 1 Creating, Running, and Plotting a Simple Model.ipynb" />
-    <Content Include="Lesson 2 Loading an old model and looking inside the column.ipynb" />
-    <Content Include="Lesson 3 Building more complex models.ipynb" />
-    <Content Include="Lesson 4 Parameter estimation.ipynb" />
-    <Content Include="Lesson 5 Advanced parameter estimation including fractionation.ipynb" />
-    <Content Include="Lesson 6 Experimental design overview.ipynb" />
-    <Content Include="Lesson 7 Error modeling.ipynb" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
