@@ -38,10 +38,11 @@
     <Content Include="Lesson 2 Loading an existing model and looking inside the column.ipynb" />
     <Content Include="Lesson 3 Building more complex models.ipynb" />
     <Content Include="Lesson 4 Cyclic models.ipynb" />
-    <Content Include="Lesson 5 Parameter estimation.ipynb" />
-    <Content Include="Lesson 6 Advanced parameter estimation including fractionation.ipynb" />
-    <Content Include="Lesson 7 Experimental design overview.ipynb" />
-    <Content Include="Lesson 8 Error modeling.ipynb" />
+    <Content Include="Lesson 5 Parameter estimation gradient.ipynb" />
+    <Content Include="Lesson 6 Parameter estimation search.ipynb" />
+    <Content Include="Lesson 7 Advanced parameter estimation including fractionation.ipynb" />
+    <Content Include="Lesson 8 Experimental design overview.ipynb" />
+    <Content Include="Lesson 9 Error modeling.ipynb" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />
