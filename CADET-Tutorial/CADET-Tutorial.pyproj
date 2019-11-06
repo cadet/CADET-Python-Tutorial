@@ -31,6 +31,7 @@
     <Content Include="images\AnacondaConsole.png" />
     <Content Include="images\AnacondaEnvironments.png" />
     <Content Include="images\AnacondaExtensionsCheck.png" />
+    <Content Include="images\git.png" />
     <Content Include="images\JupyterExtensions.png" />
     <Content Include="images\JupyterUncheck.png" />
     <Content Include="images\WindowsFileBrowser.png" />
