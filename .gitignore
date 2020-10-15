@@ -302,6 +302,9 @@ paket-files/
 __pycache__/
 *.pyc
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # Cake - Uncomment if you are using it
 # tools/**
 # !tools/packages.config
