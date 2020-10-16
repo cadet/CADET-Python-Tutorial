@@ -28,11 +28,6 @@ Open an `Anaconda Prompt` and run:
 
 ```
 conda install numpy scipy matplotlib gitpython jupyterlab ipywidgets
-```
-
-and 
-
-```
 conda install -c conda-forge jupyter_contrib_nbextensions jupyter_nbextensions_configurator
 ```
 
@@ -40,13 +35,7 @@ Moreover, we need to allow some additional channels for installing CADET-Match:
 
 ```
 conda config --add channels anaconda-fusion
-```
-
-and
-
-```
 conda config --add channels conda-forge
-
 ```
 
 Then, to install CADET-Python run:
@@ -69,6 +58,6 @@ For this purpuse, make sure, [git](https://git-scm.com/downloads) is installed.
 
 From a `git bash` run `git clone https://github.com/modsim/CADET-Tutorial`.
 
-Then, fire up a `jupyterlab` from `Anaconda Prompt` and get started.
+Then, fire up a `jupyter-lab` from `Anaconda Prompt` and get started.
 
 
