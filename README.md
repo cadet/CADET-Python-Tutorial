@@ -26,15 +26,29 @@ The tutorials are written using jupyter notebooks and require some additional pa
 Open an `Anaconda Shell` and run:
 
 ```
-conda install scipy matplotlib gitpython jupyterlab
+conda install numpy scipy matplotlib gitpython jupyterlab ipywidgets
 ```
+
 and 
 
 ```
 conda install -c conda-forge jupyter_contrib_nbextensions jupyter_nbextensions_configurator
 ```
 
-To install CADET-Python run:
+Moreover, we need to allow some additional channels for installing CADET-Match:
+
+```
+conda config --add channels anaconda-fusion
+```
+
+and
+
+```
+conda config --add channels conda-forge
+
+```
+
+Then, to install CADET-Python run:
 
 ```
 conda install -c immudzen cadet
