@@ -22,8 +22,9 @@ The package includes a Cadet class which serves as a generic HDF5 frontend.
 For installing CADET-Python, we recommend installing [Anaconda](https://www.anaconda.com/).
 Anaconda is a high-performance scientific distribution of Python that includes many common packages needed for scientific and engineering work.
 Download the installer from their website and run it for the local user.
+
 The tutorials are written using jupyter notebooks and require some additional packages.
-Open an `Anaconda Shell` and run:
+Open an `Anaconda Prompt` and run:
 
 ```
 conda install numpy scipy matplotlib gitpython jupyterlab ipywidgets
@@ -68,7 +69,6 @@ For this purpuse, make sure, [git](https://git-scm.com/downloads) is installed.
 
 From a `git bash` run `git clone https://github.com/modsim/CADET-Tutorial`.
 
-Then, fire up a jupyterlab and get started.
-
+Then, fire up a `jupyterlab` from `Anaconda Prompt` and get started.
 
 
