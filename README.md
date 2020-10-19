@@ -60,7 +60,16 @@ From a `git bash` run `git clone https://github.com/modsim/CADET-Tutorial`.
 
 Fire up a `jupyter-lab` from `Anaconda Prompt` and navigate to the location of this repository using the file manager on the left.
 Then, start by following the instructions in `getting_started.ipynb`.
+It includes a check that everything is installed correctly. 
 
 In case you are new to `Python` and `jupyter`, we also included a small tutorial (`00_Introduction_Python`) which covers the necessary basics for the tutorials.
 
+## Fixing potential problems.
 
+- If you get the following error `The code execution cannot proceed because VCRUNTIME140_1.dll was not found. Reinstalling the program may fix this problem.`, please visit https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads and install the latest Microsoft Visual C++ Redistributable.
+- Some of the notebooks include interactive graphs. To enable them, please open an Anaconda prompt and run: 
+  ```
+  jupyter labextension install @jupyter-widgets/jupyterlab-manager
+  jupyter lab clean
+  jupyter lab build
+  ```
