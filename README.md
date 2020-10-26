@@ -24,6 +24,14 @@ For more information, see also:
 ### Install CADET
 First you need to make sure, a recent version of CADET (>= 4.1) is installed as explained in the [installation guide](https://cadet.github.io/getting_started/installation.html#installation).
 
+Please ensure that the cadet binaries are available at the following locations:
+    - Windows: `C:\Users\<username>\cadet\bin`
+    - Linux: `~/cadet/bin`
+
+If you have downloaded the pre-built cadet binaries, just extracting the archive to `C:\Users\<username>` or `~` should do the trick. 
+
+Alternatively, you can set `cadet_bin_path` to the location of the cadet binaries in `utils.ipynb`. Please note that this will be overwritten upon updating the tutorials using `getting_started.ipynb`. 
+
 ### CADET-Python
 
 In this tutorial, we will use [CADET-Python](https://github.com/modsim/CADET-python) to interface CADET.
