@@ -60,7 +60,7 @@ conda config --add channels conda-forge
 Then, to install CADET-Python run:
 
 ```
-conda install -c immudzen cadet
+conda install -c immudzen cadet-python
 ```
 
 For the tutorials on parameter estimation, you also need to install [CADET-Match](https://github.com/modsim/CADET-Match):
