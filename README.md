@@ -87,8 +87,10 @@ In case you are new to `Python` and `jupyter`, we also included a small tutorial
 
 - If you get the following error `The code execution cannot proceed because VCRUNTIME140_1.dll was not found. Reinstalling the program may fix this problem.`, please visit https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads and install the latest Microsoft Visual C++ Redistributable.
 - Some of the notebooks include interactive graphs. To enable them, please open an Anaconda prompt and run: 
+- For JupyterLab 2.0+
   ```
   jupyter labextension install @jupyter-widgets/jupyterlab-manager
   jupyter lab clean
   jupyter lab build
   ```
+- For JupyterLab 3.0+: install `ipympl`
