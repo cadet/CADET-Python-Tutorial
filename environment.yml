@@ -1,0 +1,15 @@
+name: conda
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - cadet
+  - numpy
+  - scipy
+  - matplotlib
+  - jupyterlab
+  - ipywidgets
+  - pip:
+    - cadet-python
+    - cadetmatch
+

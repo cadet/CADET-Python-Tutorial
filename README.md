@@ -23,6 +23,7 @@ For more information, see also:
 To run the tutorials locally, we recommend installing [Anaconda](https://www.anaconda.com/).
 Anaconda is a high-performance scientific distribution of Python that includes many common packages needed for scientific and engineering work.
 Download the installer from their website and run it for the local user.
+We recommend creating a dedicated environment for CADET.
 
 The easiest way to download the tutorials is to clone this repository.
 For this purpuse, make sure, [git](https://git-scm.com/downloads) is installed.
@@ -32,21 +33,14 @@ From a `git bash` run
 git clone https://github.com/modsim/CADET-Tutorial
 ```
 
-Then, install all the requirements by running
+Then, from the `Anaconda Prompt`, `cd` into the directory and install all the requirements by running the following command:
 ```
-conda install -c conda-forge --file requirements.txt
+conda env create -f ./environment.yml
 ```
-
-To install [CADET-Python](https://github.com/modsim/CADET-Python) run
-
+This will create a new conda environment called `cadet`.
+To activate it, run:
 ```
-pip install cadet-python
-```
-
-For the tutorials on parameter estimation, you also need to install [CADET-Match](https://github.com/modsim/CADET-Match):
-
-```
-pip install cadetmatch
+conda activate cadet
 ```
 
 ## Getting started
@@ -58,7 +52,6 @@ In case you are new to `Python` and `jupyter`, we also included a small tutorial
 
 
 ## Fixing potential problems.
-
 - If you get the following error `The code execution cannot proceed because VCRUNTIME140_1.dll was not found. Reinstalling the program may fix this problem.`, please visit https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads and install the latest Microsoft Visual C++ Redistributable.
 - Some of the notebooks include interactive graphs. To enable them, please open an Anaconda prompt and run: 
 - For JupyterLab 2.0+
@@ -68,3 +61,4 @@ In case you are new to `Python` and `jupyter`, we also included a small tutorial
   jupyter lab build
   ```
 - For JupyterLab 3.0+: install `ipympl`
+
