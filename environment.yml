@@ -1,4 +1,4 @@
-name: conda
+name: cadet
 channels:
   - conda-forge
 dependencies:
