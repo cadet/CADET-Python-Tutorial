@@ -9,15 +9,15 @@ This work is licensed under a
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 [cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY%20NC%20SA%204.0-lightgrey.svg
 
-# We recommend for new users of CADET to follow the [CADET-Process Tutorial](https://github.com/modsim/CADET-Workshop)
+# We recommend for new users of CADET to follow the [CADET-Workshop](https://github.com/cadet/CADET-Workshop)
 
-This repository is deprecated and is maintained for users of the old CADET-Python interface.
+This repository is maintained to serve as a documentation of the CADET-Interface (using CADET-Python).
 
 For more information, see also:
 - **Website (including documentation):** https://cadet.github.io
 - **Forum:** https://forum.cadet-web.de
-- **Source:** https://github.com/modsim/cadet
-- **Bug reports:** https://github.com/modsim/cadet/issues
+- **Source:** https://github.com/cadet/cadet-core
+- **Bug reports:** https://github.com/cadet/cadet-core
 
 ### Download the tutorials
 To run the tutorials locally, we recommend installing [Anaconda](https://www.anaconda.com/).
@@ -30,7 +30,7 @@ For this purpuse, make sure, [git](https://git-scm.com/downloads) is installed.
 
 From a `git bash` run 
 ```
-git clone https://github.com/modsim/CADET-Tutorial
+git clone https://github.com/cadet/CADET-Python-Tutorial
 ```
 
 Then, from the `Anaconda Prompt`, `cd` into the directory and install all the requirements by running the following command:
