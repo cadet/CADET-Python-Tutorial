@@ -11,5 +11,3 @@ dependencies:
   - ipywidgets
   - pip:
     - cadet-python
-    - cadetmatch
-
