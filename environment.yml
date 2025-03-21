@@ -9,5 +9,6 @@ dependencies:
   - matplotlib
   - jupyterlab
   - ipywidgets
+  - pip
   - pip:
     - cadet-python
